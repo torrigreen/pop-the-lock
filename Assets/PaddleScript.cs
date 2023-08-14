@@ -29,7 +29,7 @@ public class PaddleScript : MonoBehaviour
         }
 
         // check if target hit
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) & !gameOver)
         {
             // missed
             if (!canScore)
